@@ -35,6 +35,7 @@ enum Placement {
     Clone,
 }
 
+
 impl Placement {
     fn invert(&self) -> Self {
         match self {
@@ -160,12 +161,8 @@ impl Xrandr {
             } else {
                 cmd.args(&["--pos", &rect.place(monitor, &self.placement)]);
             }
-<<<<<<< HEAD
-            if self.monitors.len() == 1 {
-=======
 
             if self.new_primary == i || self.monitors.len() == 1 {
->>>>>>> 0da5ecc717b437f4db37275bc95dacf088c2afdf
                 cmd.arg("--primary");
             }
 
