@@ -1,5 +1,6 @@
 <h1 align=center> <img src="https://user-images.githubusercontent.com/11352152/79083479-91ec3280-7cfc-11ea-9f81-045acc4f8ec0.png" width=64 align=top /><br/>enact</h1>
 
+# This version of enact just includes several pr's from the original project.
 
 `enact` will detect the proper resolution of your secondary monitor (if any) and automatically set it up as soon as you plug it in (or out).
 
